@@ -5,4 +5,7 @@ Twitter data generator for Quantify Your Year
 Request your Twitter archive under your account setting, then copy ```tweets.csv``` file in the main folder.
 
 ## Run the Code
-Edit the variable YEAR to set the data range.
+Edit the variable yEAR and timezone to set the correct data range and date.
+
+## Environment
+Python 3.6.0
