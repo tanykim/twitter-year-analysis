@@ -4,7 +4,7 @@ import json
 import pytz
 
 DEFAULT_TIMEZONE = pytz.timezone('America/Los_Angeles')
-YEAR = 2013
+YEAR = 2017
 
 data_of_year = []
 
@@ -16,7 +16,6 @@ def getTweetInfo(d):
     if len(data_of_year) == 0:
         addDate(date)
     else:
-        print (data_of_year[0]['date'], date)
         if data_of_year[0]['date'] == date:
             data_of_year[0]['value'] += 1
         else:
